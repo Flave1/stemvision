@@ -2,7 +2,7 @@
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 import logo from 'assets/images/logo.png';
-import logoWhite from 'assets/images/logo_1.png';
+import logoWhite from 'assets/images/logo.png';
 
 export default function Logo({ white }) {
   return (

@@ -9,9 +9,8 @@ import Image from 'components/image';
 import education from 'assets/images/icons/education.gif';
 import logistics from 'assets/images/icons/logistics.gif';
 import bills from 'assets/images/icons/bills.gif';
-import wifi from 'assets/images/icons/wifi.png';
 import slider1 from 'assets/images/features/1.png';
-import slider2 from 'assets/images/features/2.webp';
+import slider2 from 'assets/images/features/2.png';
 import slider3 from 'assets/images/features/3.png';
 
 import SwiperCore, { Autoplay, Pagination, EffectFade } from 'swiper';
@@ -26,19 +25,19 @@ const data = {
       id: 1,
       icon: education,
       title: 'Education',
-      description: 'you will get 1000ft square space facility here.',
+      description: 'All you need for your high school/college running.',
     },
     {
       id: 2,
       icon: logistics,
       title: 'Logistics',
-      description: 'you will get advantage to live 80+ member here.',
+      description: 'Complete restaurants logistics solution.',
     },
     {
       id: 3,
       icon: bills,
       title: 'Utilities',
-      description: 'Internet speed is much better than others.',
+      description: 'All in one application for bills and utilities payment.',
     },
   ],
   gallery: [
@@ -57,7 +56,7 @@ const data = {
     {
       id: 3,
       image: slider3,
-      title: 'Bills off',
+      title: 'Bills payment solution',
       desc: 'All in one application for bills and utilities payment',
     },
   ],
@@ -110,8 +109,8 @@ const FeaturedSpace = () => {
           <Box sx={styles.leftContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Some good AI solutions to enable build your business scale"
-              description="Co-working offers beautifully crafted workspaces where people can create, connect, and grow their businesses at prime locations in multiple cities."
+              title="Some good AI solutions to enable you build your business and scale"
+              description="Stemvision offers AI powered platforms to enable individuals, businesses educational institutions connect, and grow their businesses at prime locations in multiple cities."
             />
             <Box sx={styles.featureWrapper}>
               {data?.feature?.map((feature) => (
@@ -138,12 +137,12 @@ const FeaturedSpace = () => {
                 <SwiperSlide key={item.id}>
                   <Box as="figure" sx={styles.image}>
                     <Image loading="lazy" src={item.image} alt="" />
-                    <Box as="figcaption">
+                    {/* <Box as="figcaption">
                       <Box>
                         <Heading as="h4">{item.title}</Heading>
                         <Text as="p">{item.desc}</Text>
                       </Box>
-                    </Box>
+                    </Box> */}
                   </Box>
                 </SwiperSlide>
               ))}

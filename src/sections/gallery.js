@@ -16,32 +16,32 @@ const data = [
   {
     id: 1,
     image: gallery1,
-    title: 'Front working space',
+    title: 'Back to school',
   },
   {
     id: 2,
     image: gallery2,
-    title: 'Meeting corner',
+    title: 'Cash back',
   },
   {
     id: 3,
     image: gallery3,
-    title: 'Guest meeting room',
+    title: 'Learning from home',
   },
   {
     id: 4,
     image: gallery4,
-    title: 'Guest rest room',
+    title: 'One touch payment',
   },
   {
     id: 6,
     image: gallery6,
-    title: 'Kitchen room',
+    title: 'Express delivery',
   },
   {
     id: 5,
     image: gallery5,
-    title: 'Single working space',
+    title: 'Qucik and Easy delivery',
   },
 ];
 
