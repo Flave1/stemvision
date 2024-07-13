@@ -12,7 +12,7 @@ export default function Logo({ white }) {
         variant: 'links.logo',
       }}
     >
-      <Image src={white ? logoWhite : logo} alt="startup landing logo" />
+      <Image src={white ? logoWhite : logo} alt="Stemvision AI Logo" />
     </Link>
   );
 }
