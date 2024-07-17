@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Heading, Image, Text } from 'theme-ui';
+import { Box, Heading, Image, Text } from 'theme-ui';
 import { IoMdCheckmarkCircle } from 'react-icons/io';
 import { IoIosCloseCircle } from 'react-icons/io';
 import { BsArrowRightShort } from 'react-icons/bs';

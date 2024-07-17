@@ -1,17 +1,18 @@
-/** @jsx jsx */
 import { rgba } from 'polished';
 import { useState, useRef, useEffect } from 'react';
-import { jsx, Box, Container, Heading, Text } from 'theme-ui';
+import { Box, Container, Heading, Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Progressbar from 'components/progressbar';
 import Feature from 'components/cards/feature';
 import Image from 'components/image';
-import education from 'assets/images/icons/education.gif';
-import logistics from 'assets/images/icons/logistics.gif';
-import bills from 'assets/images/icons/bills.gif';
-import slider1 from 'assets/images/features/1.png';
-import slider2 from 'assets/images/features/2.png';
-import slider3 from 'assets/images/features/3.png';
+
+
+// import education from 'assets/images/icons/education.gif';
+// import logistics from 'assets/images/icons/logistics.gif';
+// import bills from 'assets/images/icons/bills.gif';
+// import slider1 from 'assets/images/features/1.png';
+// import slider2 from 'assets/images/features/2.png';
+// import slider3 from 'assets/images/features/3.png';
 
 import SwiperCore, { Autoplay, Pagination, EffectFade } from 'swiper';
 // Import Swiper React components
@@ -23,19 +24,19 @@ const data = {
   feature: [
     {
       id: 1,
-      icon: education,
+      icon: 'assets/images/icons/education.gif',
       title: 'Education',
       description: 'All you need for your high school/college running.',
     },
     {
       id: 2,
-      icon: logistics,
+      icon: 'assets/images/icons/logistics.gif',
       title: 'Logistics',
       description: 'Complete restaurants logistics solution.',
     },
     {
       id: 3,
-      icon: bills,
+      icon: 'assets/images/icons/bills.gif',
       title: 'Utilities',
       description: 'All in one application for bills and utilities payment.',
     },
@@ -43,19 +44,19 @@ const data = {
   gallery: [
     {
       id: 1,
-      image: slider1,
+      image: 'assets/images/features/1.png',
       title: 'SMP school app',
       desc: 'All you need for your high school/college running',
     },
     {
       id: 2,
-      image: slider2,
+      image: 'assets/images/features/2.png',
       title: 'SV food logistics',
       desc: 'Complete restaurants logistics solution',
     },
     {
       id: 3,
-      image: slider3,
+      image: 'assets/images/features/3.png',
       title: 'Bills payment solution',
       desc: 'All in one application for bills and utilities payment',
     },

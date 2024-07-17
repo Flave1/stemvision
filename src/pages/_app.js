@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
 import Router from 'next/router';
-import 'swiper/swiper-bundle.min.css';
-import 'assets/css/slick.min.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import '../css/slick.min.css';
 import { initGA, logPageView } from 'analytics';
 import 'typeface-dm-sans';
 

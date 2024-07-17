@@ -1,7 +1,6 @@
-/** @jsx jsx */
 import { rgba } from 'polished';
 import Image from 'components/image';
-import { jsx, Box, Heading, Text } from 'theme-ui';
+import { Box, Heading, Text } from 'theme-ui';
 
 const Feature = ({ data: feature }) => {
   return (

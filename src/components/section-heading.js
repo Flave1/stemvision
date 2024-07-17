@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Heading, Text } from 'theme-ui';
+import { Box, Heading, Text } from 'theme-ui';
 
 const SectionHeading = ({ slogan, title, description, ...props }) => {
   return (

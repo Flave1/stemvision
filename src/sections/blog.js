@@ -1,13 +1,12 @@
-/** @jsx jsx */
-import { jsx, Box, Container, Button } from 'theme-ui';
+import {  Box, Container, Button } from 'theme-ui';
 import Slider from 'react-slick';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import SectionHeading from 'components/section-heading';
 import BlogPost from 'components/cards/blog-card';
 
-import thumb1 from 'assets/images/blog/1.png';
-import thumb2 from 'assets/images/blog/2.png';
-import thumb3 from 'assets/images/blog/3.png';
+const thumb1 = 'assets/images/blog/1.png';
+const thumb2 = 'assets/images/blog/2.png';
+const thumb3 = 'assets/images/blog/3.png';
 
 const data = [
   {

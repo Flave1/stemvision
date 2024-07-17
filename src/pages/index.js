@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeProvider } from 'theme-ui';
+import { ThemeUIProvider } from 'theme-ui';
 import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
@@ -9,12 +9,12 @@ import FeaturedSpace from 'sections/featured-space';
 import OurCustomer from 'sections/our-customer';
 import Gallery from 'sections/gallery';
 import Pricing from 'sections/pricing';
-import Blog from 'sections/blog';
+// import Blog from 'sections/blog';
 import Subscription from 'sections/subscription';
 
 export default function IndexPage() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeUIProvider theme={theme}>
       <Layout>
         <SEO title="Stemvision AI" />
         <Banner />
@@ -23,9 +23,9 @@ export default function IndexPage() {
         <Gallery />
         <Pricing />
         <OurCustomer />
-        <Blog />
+        {/* <Blog /> */}
         <Subscription />
       </Layout>
-    </ThemeProvider>
+    </ThemeUIProvider>
   );
 }

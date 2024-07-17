@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Label, Image, Select as SelectBox } from 'theme-ui';
+import {  Box, Label, Image, Select as SelectBox } from 'theme-ui';
 import { rgba } from 'polished';
 
 const Select = ({ id, label, icon, children, ...props }) => {

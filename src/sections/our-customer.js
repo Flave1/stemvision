@@ -1,8 +1,7 @@
-/** @jsx jsx */
-import { jsx, Box, Container, Image, Flex, Link } from 'theme-ui';
+import {  Box, Container, Image, Flex, Link } from 'theme-ui';
 import { RiArrowRightSLine } from 'react-icons/ri';
 import SectionHeading from 'components/section-heading';
-import customer from 'assets/images/customer.png';
+const customer = 'assets/images/customer.png';
 
 const OurCustomer = () => {
   return (

@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Flex, Text, Container } from 'theme-ui';
+import { Box, Flex, Text, Container } from 'theme-ui';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
 import { rgba } from 'polished';
@@ -47,7 +46,7 @@ export default function Footer() {
           <Flex as="ul" sx={styles.nav}>
             {navItems?.map((item) => (
               <li key={item.id}>
-                <Link path={item.link}>{item.title}</Link>
+                {/* <Link path={item.link}>{item.title}</Link> */}
               </li>
             ))}
           </Flex>

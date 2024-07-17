@@ -1,14 +1,13 @@
-/** @jsx jsx */
 import { useState } from 'react';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import { jsx, Grid, Box, Container, Flex, Button } from 'theme-ui';
+import { Grid, Box, Container, Flex, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceCard from 'components/cards/price-card';
 import { rgba } from 'polished';
-import { keyframes } from '@emotion/core';
+// import { keyframes } from '@emotion/core';
 
-import userIcon from 'assets/images/icons/two-users.png';
-import userIcon2 from 'assets/images/icons/three-users.png';
+const userIcon = 'assets/images/icons/two-users.png';
+const userIcon2 = 'assets/images/icons/three-users.png';
 
 const monthlyPricing = [
   {
@@ -191,24 +190,24 @@ const Pricing = () => {
 
 export default Pricing;
 
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
-const fadeIn2 = keyframes`
-  from {
-    transform: translateY(50%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-`;
+// const fadeIn = keyframes`
+//   from {
+//     opacity: 0;
+//   }
+//   to {
+//     opacity: 1;
+//   }
+// `;
+// const fadeIn2 = keyframes`
+//   from {
+//     transform: translateY(50%);
+//     opacity: 0;
+//   }
+//   to {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// `;
 
 const styles = {
   section: {
@@ -257,19 +256,19 @@ const styles = {
       'repeat(2, 480px)',
     ],
     justifyContent: 'center',
-    '.priceCard': {
-      '.priceHeader': {
-        animation: `${fadeIn} 0.8s linear`,
-      },
-      'ul > li': {
-        animation: `${fadeIn2} 0.7s linear`,
-      },
-      '.priceAmount': {
-        animation: `${fadeIn} 0.9s linear`,
-      },
-      '.priceButton': {
-        animation: `${fadeIn2} 0.7s linear`,
-      },
-    },
+    // '.priceCard': {
+    //   '.priceHeader': {
+    //     animation: `${fadeIn} 0.8s linear`,
+    //   },
+    //   'ul > li': {
+    //     animation: `${fadeIn2} 0.7s linear`,
+    //   },
+    //   '.priceAmount': {
+    //     animation: `${fadeIn} 0.9s linear`,
+    //   },
+    //   '.priceButton': {
+    //     animation: `${fadeIn2} 0.7s linear`,
+    //   },
+    // },
   },
 };

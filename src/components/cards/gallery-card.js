@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Flex, Image } from 'theme-ui';
+import { Box, Flex, Image } from 'theme-ui';
 
 const GalleryCard = ({ item }) => {
   return (

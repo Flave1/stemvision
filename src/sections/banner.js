@@ -1,10 +1,9 @@
-/** @jsx jsx */
-import { jsx, Box, Container, Heading, Text, Button } from 'theme-ui';
+import {  Box, Container, Heading, Text, Button } from 'theme-ui';
 import { rgba } from 'polished';
 
 import Select from 'components/select';
-import bannerBg from 'assets/images/banner-bg.jpg';
-import mapMarker from 'assets/images/icons/map-marker.png';
+const bannerBg = 'assets/images/banner-bg.jpeg';
+const mapMarker = 'assets/images/icons/map-marker.png';
 
 const options = [
   {

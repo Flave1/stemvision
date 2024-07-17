@@ -1,16 +1,15 @@
-/** @jsx jsx */
-import { jsx, Box, Container, Image, Button } from 'theme-ui';
+import { Box, Container, Image, Button } from 'theme-ui';
 import { RiArrowRightSLine } from 'react-icons/ri';
 import Masonry from 'react-masonry-component';
 import SectionHeading from 'components/section-heading';
 import GalleryCard from 'components/cards/gallery-card';
 
-import gallery1 from 'assets/images/gallery/1.png';
-import gallery2 from 'assets/images/gallery/2.png';
-import gallery3 from 'assets/images/gallery/3.png';
-import gallery4 from 'assets/images/gallery/4.png';
-import gallery5 from 'assets/images/gallery/5.png';
-import gallery6 from 'assets/images/gallery/6.png';
+const gallery1 = 'assets/images/gallery/1.png';
+const gallery2 = 'assets/images/gallery/2.png';
+const gallery3 = 'assets/images/gallery/3.png';
+const gallery4 = 'assets/images/gallery/4.png';
+const gallery5 = 'assets/images/gallery/5.png';
+const gallery6 = 'assets/images/gallery/6.png';
 
 const data = [
   {

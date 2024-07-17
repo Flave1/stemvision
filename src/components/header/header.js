@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Container, MenuButton, Flex, Button } from 'theme-ui';
+import { Box, Container, MenuButton, Flex, Button } from 'theme-ui';
 import { useState } from 'react';
 import { GrClose } from 'react-icons/gr';
 import Sticky from 'react-stickynode';
@@ -33,6 +32,7 @@ export default function Header() {
           <Container>
             <Box sx={styles.headerInner}>
               <Logo />
+              {/* <span>LOGO</span> */}
 
               <Flex
                 as="nav"

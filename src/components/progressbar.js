@@ -1,10 +1,10 @@
-/** @jsx jsx */
-import { jsx, Box } from 'theme-ui';
+import { Box } from 'theme-ui';
 import Image from 'components/image';
-import play from 'assets/images/icons/play.png';
-import pause from 'assets/images/icons/pause.png';
+
 
 const Progressbar = ({ currentWidth, togglePlay, handleClick, ...props }) => {
+  const play =  'assets/images/icons/play.png';
+  const pause = 'assets/images/icons/pause.png';
   let c = Math.PI * (35 * 2); // 35 is circle r's value
   let pct = ((100 - currentWidth) / 100) * c;
 
@@ -25,7 +25,7 @@ const Progressbar = ({ currentWidth, togglePlay, handleClick, ...props }) => {
       <button sx={styles.button} onClick={handleClick}>
         <Image
           style={{ marginLeft: togglePlay ? '3px' : 0 }}
-          src={togglePlay ? play : pause}
+          src={togglePlay ? '' : pause}
           alt="play pause icon"
         />
       </button>

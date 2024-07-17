@@ -1,8 +1,7 @@
-/** @jsx jsx */
-import { jsx, Box, Flex, Image, Heading, Text } from 'theme-ui';
+import {  Box, Flex, Image, Heading, Text } from 'theme-ui';
 import { Link } from 'components/link';
 import { rgba } from 'polished';
-import chat from 'assets/images/icons/chat.png';
+const chat = 'assets/images/icons/chat.png';
 
 const BlogPost = ({ post }) => {
   return (
