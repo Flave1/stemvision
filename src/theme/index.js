@@ -5,7 +5,7 @@ export default {
     text_secondary: '#02073E', // secondary body color
     heading: '#0F2137', // primary heading color
     heading_secondary: '#343D48', // heading color
-    background: '#FFFFFF', // body background color
+    background: '#FFFFFF !important', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E9EDF5', // border color
     primary: '#8D448B', // primary button and link color
