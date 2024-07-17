@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+# Host
+Host: https://stemvision.vercel.app
+
+# Sitemaps
+Sitemap: https://stemvision.vercel.app/sitemap.xml

@@ -12,7 +12,8 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "next": "14.2.5",
+    "@next/bundle-analyzer": "^14.2.5",
+    "next": "^14.2.5",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
     "polished": "^4.3.1",

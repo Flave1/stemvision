@@ -1,13 +1,10 @@
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 
-const nextConfiguration = {
-  // webpack: (config, { isServer }) => {
-  //   if (!isServer) {
-  //     config.resolve.alias['react-dom'] = '@hot-loader/react-dom';
-  //   }
-  //   return config;
-  // },
-};
-
-module.exports = withPlugins([optimizedImages], nextConfiguration);
+module.exports = withBundleAnalyzer({
+  images: {
+    domains: ['stemvision.vercel.app'], // Add your image domains here
+  },
+  // Other configurations
+});
